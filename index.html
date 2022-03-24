@@ -108,12 +108,21 @@
     .completed{
         text-decoration: line-through;
     }
+
+    .is-invalid{
+        border-color: rgb(189, 29, 29)
+    }
+    .red{
+        color: red;
+        margin-top: 10px;
+        font-size: 20px;
+    }
     </style>
 </head>
 <body>
     <div class="container">
         <div id="newtask">
-            <input type="text" placeholder="Task to be done..">
+            <input type="text" id = 'placeholder' placeholder="Task to be done..">
             <button id="push">Submit</button>
         </div>
 
